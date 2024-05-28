@@ -1,0 +1,47 @@
+.top h6{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: #5b2600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+.top{
+    background-color: #FFCA6A;
+    height: 40px;
+}
+.dropdown-menu{
+    width: 1800px;
+    height: 200px;
+}
+.nav-item{
+    padding-left: 15px;
+    font-size: 14px;
+}
+section .navbar .collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    background-color: #FFCA6A;
+    justify-content: space-between;
+    z-index: 999;
+}
+#navmenu i{
+    font-size: 20px;
+    color: black;
+}
+.nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.navbar-light span{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+}

@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Jaro:opsz@6..72&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Jaro:opsz@6..72&family=Outfit:wght@100..900&family=Teko:wght@300..700&display=swap');
+.top h6{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    color: #5b2600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+.top{
+    background-color: #FFCA6A;
+    height: 40px;
+}
+.dropdown-menu{
+    width: 1800px;
+    height: 200px;
+}
+.nav-item{
+    padding-left: 15px;
+    font-size: 14px;
+}
+section .navbar .collapse{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    background-color: #FFCA6A;
+    justify-content: space-between;
+    z-index: 999;
+}
+#navmenu i{
+    font-size: 20px;
+    color: black;
+}
+.nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.navbar-light span{
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+/* dairy */
+.main-dairy
+{
+    background-color: #fff7e9;
+    border-radius: 220px 220px 0px 0px;
+    
+}
+.main-dairy img{
+    display: block;
+    margin: auto;
+}
+.main-dairy p{
+   text-align: center;
+   padding: 10px;
+   font-family: poppins;
+    margin: auto;
+}
+
+/* accordian */
+.check i{
+    font-size: 25px;
+}
+.accordion-button{
+    background-color: transparent;
+    border: none;
+}
+.accordion-item{
+    background-color: transparent;
+}
+.accordion-button span{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Outfit";
+}
+#title{
+    padding: 2px;font-size: 50px; text-align: center;font-weight: 600;
+    font-family: "Teko", sans-serif;
+    color: red;
+}
+#rating{
+    padding: 5px; font-family: Poppins; text-align: center;
+}
+#price{
+    padding: 4px; font-family: Poppins; text-align: center; font-size: 25px;
+}
+#description{
+display:block;margin: auto;font-size: 24px;width:60%; font-family: "Outfit", sans-serif;padding:20px;font-weight: 400;
+font-style: unset;
+}
+
+/* ground section img and content */
+
+.ground{
+
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: .2px;
+        font-family: "Outfit";
+        color: #2b1a1a;
+    }
+    li{
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        font-family: poppins;
+    }
+   
+}
+.info{
+    margin: auto;
+    width: 70%;
+}
+.ways{
+    h1{
+        font-size: 60px;
+        text-align: center;
+        font-family: "Teko", sans-serif;
+        font-weight: 400;
+    }
+    svg{
+        height: 200px;
+        width: 120px;
+    }
+    p
+    {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: poppins;
+        text-align: center;
+    }
+}
+.nav-pills  .nav-link{
+    font-size: 15px;
+    background-color: #5b2600;
+}
+
+.pic
+{
+    img{
+        height: 60%;
+        width:60%;
+        margin: auto;
+        display: block;
+    }
+    .rating i{
+        color:yellow ;
+        font-size: 20px;
+    }
+    .review{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: poppins;
+        padding: 10px;
+    }
+    .title{
+        font-size: 21px;
+        font-weight: 700;
+        width: 50%;
+        margin: auto;
+        font-family: "Jora",sans-serif;
+    }
+    .rating,.review,.title{
+        display: block;
+        text-align: center;
+    }
+}
+.review-content {
+   
+   .r-text
+   { font-size: 45px;
+    font-family: "Jora",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+   }
+    span{
+        text-align: center;
+        display: block;
+        margin: auto;
+        font-size: 28px;
+    }
+    .r-pro{
+        font-size: 30px;
+        color: #2b1a1a;
+        font-style: initial;
+        margin: auto;
+        display: block;     
+    }
+    .star{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    i{
+        font-size: 30px;
+        padding: 5px 10px;
+        border: 1px solid #5b2600;
+        margin: 5px;
+        color: red;
+        transition: all 0.6s ease;
+    }
+    i:hover{
+        background-color: red;
+        color: white;
+    }
+    p{
+        color: grey;
+        display: block;
+        text-align: center;
+        font-family: poppins;
+        padding: 30px;
+        font-size: 20px;
+    }
+}
+.store{
+    background-color: #FFFFFF;
+}
+.store img{
+    height:90px;
+    width: 200px;
+    object-fit: contain;
+}
+#store{
+   
+    margin: auto;
+    width: 80%;
+    line-height: 45px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-style: normal;
+    border-radius: 6px;
+    align-items: center;
+}
+.email input{
+    width: 45%;
+border: none;
+border-radius: 10px;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 1px;
+padding: 12px 16px;
+}
+#COUPON{
+    
+    margin: auto;
+    padding: 0px 0px;
+    line-height: 45px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 0%;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: normal;
+    border-radius: 6px;
+    align-items: center;
+}
+.footer{
+    background-color: #FFFFFF;
+}
+.footer h4{
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: poppins;
+}
+.footer li{
+    padding-bottom: 10px;
+}
+.footer i{
+    padding: 8px;
+    padding-left: 0px;
+    font-size: 22px;
+}

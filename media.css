@@ -1,0 +1,70 @@
+/* Extra small devices (phones, 320px to 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
+      background-color: lightgrey;
+    }
+  }
+  
+  /* Small devices (landscape phones, 481px to 575px) */
+  @media (min-width: 481px) and (max-width: 575px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      background-color: lightblue;
+    }
+  }
+  
+  /* Medium devices (tablets, 576px to 767.98px) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      background-color: lightgreen;
+    }
+  }
+  
+  /* Large devices (desktops, 768px to 991.98px) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 20px;
+      background-color: lightcoral;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 992px to 1199.98px) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 15px;
+      background-color: lightyellow;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1200px to 1399.98px) */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 10px;
+      background-color: lightpink;
+    }
+  }
+  
+  /* Extra extra large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .main {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 5px;
+      background-color: lightcyan;
+    }
+  }
+  

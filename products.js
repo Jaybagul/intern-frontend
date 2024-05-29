@@ -18,7 +18,7 @@ function cardlist(data) {
 
 function singlecard(img, rating, title, price, description, link, text) {
   let card = `
-    <div class="card" style="width: 31rem; margin: auto; border-radius: 20px;">
+    <div class="card" style="width: 31rem; margin: auto; border-radius: 20px;margin:15px;">
       <a href="description.html?title=${encodeURIComponent(title)}&img=${encodeURIComponent(img)}&price=${encodeURIComponent(price)}&description=${encodeURIComponent(description)}&link=${encodeURIComponent(link)}&text=${encodeURIComponent(text)}" class="link" style="text-decoration: none; color: inherit;">
         <img src="${img}" class="card-img-top" alt="...">
         <div class="card-body">

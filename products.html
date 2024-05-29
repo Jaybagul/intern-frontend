@@ -376,6 +376,7 @@ function sortProducts(criteria) {
   cardlist(sortedProducts);
 }
 // script.js
+// script.js
 
 async function fetchData() {
   const query = document.getElementById('search-control').value;
@@ -400,5 +401,25 @@ async function fetchData() {
     resultsDiv.innerHTML = '<p>There was an error fetching the results. Please try again later.</p>';
   }
 }
+
+window.onload = () => {
+  const params = new URLSearchParams(window.location.search);
+
+  const imgSrc = params.get("img");
+  const rating = params.get("rating");
+  const title = params.get("title");
+
+  if (imgSrc) {
+    document.getElementById("img").src = imgSrc;
+  }
+
+  if (rating) {
+    document.getElementById("rating").innerText = `Rating: ${rating}`;
+  }
+
+  if (title) {
+    document.getElementById("title").innerText = title;
+  }
+};
 
 </script>

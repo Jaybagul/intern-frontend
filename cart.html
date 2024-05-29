@@ -156,7 +156,7 @@ function cardlist(data) {
 
 function singlecard(img,title, price,id) {
     let card = `
-    <div class="card" style="width: 18rem;margin:10px;border-radius:15px;padding:0%;margin:auto;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+    <div class="card" style="width: 18rem;margin:10px;border-radius:15px;padding:0%;margin:auto;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;margin-bottom:10px;">
       <a href="description.html?title=${encodeURIComponent(title)}&img=${encodeURIComponent(img)}&id=${encodeURIComponent(id)}&price=${encodeURIComponent(price)} class="link" style="text-decoration: none; color: inherit;">
         <img src="${img}" class="card-img-top" alt="...">
         <div class="card-body">

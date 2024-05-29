@@ -603,7 +603,7 @@ let carddata ={
   price:params.get("price"),
   img:params.get("img")
 }
-fetch("http://localhost:3000/cart",{
+fetch("https://backend-intern-7cop.onrender.com/cart",{
   method:"POST",
   headers:{
     "Content-Type":"application/json"
@@ -615,15 +615,12 @@ fetch("http://localhost:3000/cart",{
 .catch((err)=>console.log(err))
 })
 
- const params = new URLSearchParams(window.location.search);
-
+const params = new URLSearchParams(window.location.search);
+  
 document.getElementById("img").src = params.get("img");
 document.getElementById("rating").innerText = params.get("rating");
 document.getElementById("title").innerText = params.get("title");
 document.getElementById("price").innerText = params.get("price");
 document.getElementById("description").innerText = params.get("description");
-// document.getElementById("link").href = params.get("link");
-  // document.getElementById("text").textContent = params.get("text");
-
   
 </script>
